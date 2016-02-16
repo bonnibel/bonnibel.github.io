@@ -1,7 +1,21 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("../images/bkg.png") 0 0;
+  /* background: #151515 url("../images/bkg.png") 0 0; */
+  background-image: -webkit-gradient(
+  linear,
+  left top,
+  left bottom,
+  color-stop(0, #118C77),
+  color-stop(0.41, #BD2C8A),
+  color-stop(1, #D9FF00)
+);
+background-image: -o-linear-gradient(bottom, #118C77 0%, #BD2C8A 41%, #D9FF00 100%);
+background-image: -moz-linear-gradient(bottom, #118C77 0%, #BD2C8A 41%, #D9FF00 100%);
+background-image: -webkit-linear-gradient(bottom, #118C77 0%, #BD2C8A 41%, #D9FF00 100%);
+background-image: -ms-linear-gradient(bottom, #118C77 0%, #BD2C8A 41%, #D9FF00 100%);
+background-image: linear-gradient(to bottom, #118C77 0%, #BD2C8A 41%, #D9FF00 100%);
+
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;

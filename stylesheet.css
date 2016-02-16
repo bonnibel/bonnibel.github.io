@@ -6,6 +6,8 @@ background-image: -moz-linear-gradient(bottom, #BD2C8A 0%, #118C78 100%);
 background-image: -webkit-linear-gradient(bottom, #BD2C8A 0%, #118C78 100%);
 background-image: -ms-linear-gradient(bottom, #BD2C8A 0%, #118C78 100%);
 background-image: linear-gradient(to bottom, #BD2C8A 0%, #118C78 100%);
+background-repeat: none;
+background-attachment: fixed;
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
@@ -22,56 +24,15 @@ background-image: linear-gradient(to bottom, #BD2C8A 0%, #118C78 100%);
 
  section {
   display: block;
- /* margin: 0 0 20px 0; */
+
 } 
 
 h1, h2, h3, h4, h5, h6 {
- /* margin: 0 0 20px; */
+
 }
 
 li {
   line-height: 1.0 ;
-}
-
-/* Header, <header>
-   header   - container
-   h1       - project name
-   h2       - project description
-*/
-
-/* header {
-  background: rgba(0, 0, 0, 0.1);
-  width: 100%;
-  border-bottom: 1px dashed #b5e853;
-  padding: 20px 0;
-  margin: 0 0 40px 0;
-}
-
-header h1 {
-  font-size: 30px;
-  line-height: 1.5;
-  margin: 0 0 0 -40px;
-  font-weight: bold;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
-  letter-spacing: -1px;
-  -webkit-font-smoothing: antialiased;
-}
-
-
-header h2 {
-  font-size: 18px;
-  font-weight: 300;
-  color: #FFF;
-} 
-
-#downloads .btn {
-  display: inline-block;
-  text-align: center;
-  margin: 0;
 }
 
 /* Main Content
@@ -88,13 +49,13 @@ section img {
 h1, h2, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #FFF;
   letter-spacing: -0.03em;
   line-height: .75;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
-
+text-shadow: 2.5px 2.5px;
 }
 h3 {
  font-weight: normal;
@@ -105,6 +66,7 @@ h3 {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
+  
 
 }
 
@@ -204,13 +166,13 @@ hr {
 */
 
 a {
-  color: #eee !important;
+  color: #19C251 !important;
   text-shadow: pink 0px 0px 5px, 1px 2px 2px black, 0px 0px 30px #FFF, 0px 0px 20px #730073;
   transition: text-shadow 1s, color 1s;
   text-decoration: none;
 }
 a:hover {
-  color: #fff!important;
+  color: #1DDE4D!important;
   text-decoration: none!important;
   text-shadow: pink 0px 0px 5px, 1px 2px 2px black, 0px 0px 30px #FFF, #333 10px 0px 5px, 0px 0px 20px #730073;
 }
